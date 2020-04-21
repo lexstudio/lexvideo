@@ -1,0 +1,19 @@
+/*-----------------Media Queries ---------------------*/
+@media screen and (max-width: 800px) {
+  header .logo {
+    margin-bottom: 10px;
+  }
+
+  header .contenedor {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pelicula-principal {
+    font-size: 14px;
+  }
+
+  .pelicula-principal .descripcion {
+    max-width: 100%;
+  }
+}
