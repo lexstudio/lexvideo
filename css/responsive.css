@@ -16,20 +16,20 @@
   .pelicula-principal .descripcion {
     max-width: 100%;
   }
-}
 
-.peliculas-recomendadas .contenedor-carousel {
-  overflow: visible;
-}
+  .peliculas-recomendadas .contenedor-carousel {
+    overflow: visible;
+  }
 
-.peliculas-recomendadas .contenedor-carousel .carousel {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
+  .peliculas-recomendadas .contenedor-carousel .carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
-.peliculas-recomendadas .indicadores,
-.peliculas-recomendadas .flecha-izquierda,
-.peliculas-recomendadas .flecha-derecha {
-  display: none;
+  .peliculas-recomendadas .indicadores,
+  .peliculas-recomendadas .flecha-izquierda,
+  .peliculas-recomendadas .flecha-derecha {
+    display: none;
+  }
 }
