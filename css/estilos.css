@@ -172,6 +172,11 @@ header nav a.activo {
   right: 0;
 }
 
+.flecha-izquierda:focus,
+.flecha-derecha:focus {
+  outline: none;
+}
+
 /*----------carousel----------------------*/
 .peliculas-recomendadas .contenedor-carousel {
   width: 100%;
